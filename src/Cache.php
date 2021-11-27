@@ -27,7 +27,7 @@ use Psr\SimpleCache\CacheInterface;
 class Cache extends Manager implements CacheInterface
 {
 
-    protected $namespace = '\\cores\\think\\cache\\driver\\';
+    protected $namespace = '\\yiovo\\cache\\cache\\driver\\';
 
     /**
      * 默认驱动
