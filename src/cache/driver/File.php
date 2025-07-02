@@ -15,7 +15,7 @@ namespace yiovo\cache\cache\driver;
 use DateTimeInterface;
 use FilesystemIterator;
 use think\App;
-use think\cache\Driver;
+use yiovo\cache\cache\Driver;
 use think\exception\InvalidCacheException;
 
 /**

@@ -12,8 +12,8 @@ declare(strict_types=1);
 
 namespace yiovo\cache\facade;
 
-use think\cache\Driver;
-use think\cache\TagSet;
+use yiovo\cache\cache\Driver;
+use yiovo\cache\cache\TagSet;
 use think\Facade;
 
 /**

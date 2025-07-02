@@ -15,8 +15,8 @@ namespace yiovo\cache;
 use DateInterval;
 use DateTimeInterface;
 use Psr\SimpleCache\CacheInterface;
-use think\cache\Driver;
-use think\cache\TagSet;
+use yiovo\cache\cache\Driver;
+use yiovo\cache\cache\TagSet;
 use think\exception\InvalidArgumentException;
 use think\helper\Arr;
 
@@ -25,7 +25,7 @@ use think\helper\Arr;
  * @mixin Driver
  * @mixin \yiovo\cache\cache\driver\File
  */
-class Cache extends Manager implements CacheInterface
+class Cache extends \think\Manager implements CacheInterface
 {
 
     protected $namespace = '\\yiovo\\cache\\cache\\driver\\';

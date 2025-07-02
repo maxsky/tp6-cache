@@ -14,7 +14,7 @@ namespace yiovo\cache\cache\driver;
 
 use DateInterval;
 use DateTimeInterface;
-use think\cache\Driver;
+use yiovo\cache\cache\Driver;
 use think\exception\InvalidCacheException;
 
 /**
