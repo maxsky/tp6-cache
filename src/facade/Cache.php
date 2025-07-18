@@ -45,6 +45,6 @@ class Cache extends Facade
      */
     protected static function getFacadeClass()
     {
-        return 'cache';
+        return \yiovo\cache\Cache::class;
     }
 }
