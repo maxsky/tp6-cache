@@ -109,7 +109,7 @@ class Cache extends \think\Manager implements CacheInterface
      * @param mixed  $default 默认值
      * @return mixed
      */
-    public function get($key, mixed $default = null): mixed
+    public function get($key, $default = null): mixed
     {
         return $this->store()->get($key, $default);
     }
